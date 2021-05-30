@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
 import { Row, Col, Button, notification, Divider } from 'antd';
-import { UsergroupAddOutlined } from '@ant-design/icons';
+import { UsergroupAddOutlined } from '@ant-design/icons'
 
 const openNotification = () => {
   notification.open({
@@ -63,7 +63,7 @@ export default function Home() {
           </a>
 
           <a
-            href="#"
+            href="/more"
             className={styles.card}
           >
             <h3>⚡ More &rarr;</h3>
@@ -76,7 +76,7 @@ export default function Home() {
         <p>Vince Ying © 2020-2021</p>
       </footer>
     </div >
-    
+
   )
 }
 
