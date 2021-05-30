@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo" src="https://cdn.jsdelivr.net/gh/vinceying/static@main/images/20210405205551.png>
+  <img alt="Logo" src="https://cdn.jsdelivr.net/gh/vinceying/static@main/images/20210405205551.png">
 </p>
 
 ### About landing-page-react
