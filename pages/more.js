@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css';
-import { Card, Space, Avatar, PageHeader, Col, Row, Statistic, Affix, Button, Tag, Divider, Badge} from 'antd';
+import { Card, Space, Avatar, PageHeader, Col, Row, Statistic, Affix, Button, Tag, Divider, Badge } from 'antd';
 import { WeiboOutlined, ZhihuOutlined, EllipsisOutlined } from '@ant-design/icons';
 import Head from 'next/head';
 
@@ -12,13 +12,13 @@ export default function more() {
                 className="site-page-header"
                 onBack={() => window.history.back()}
                 title="More"
-                subTitle="For more informations"
+                subTitle="For more information"
             />
             <div className={styles.container}>
-            <Head>
-        <title>Vince</title>
-        <link rel="icon" href="/faviocn_mistyle.png" />
-      </Head>
+                <Head>
+                    <title>Vince</title>
+                    <link rel="icon" href="/faviocn_mistyle.png" />
+                </Head>
                 <main className={styles.main}>
                     <Row gutter={[16, { xs: 8, sm: 16, md: 24, lg: 32 }]} justify="center">
                         <Col>
@@ -32,7 +32,7 @@ export default function more() {
                                 }
                                 actions={[
                                     <a href="https://weibo.com/u/2422015477" target="_blank"><WeiboOutlined key="weibo" /></a>,
-                                    <a href="https://www.zhihu.com/people/vince-best" target="_blank"><ZhihuOutlined key="zhihu" /></a>,,
+                                    <a href="https://www.zhihu.com/people/vince-best" target="_blank"><ZhihuOutlined key="zhihu" /></a>, ,
                                     <a href="https://i.vince.pub/about/" target="_blank"><EllipsisOutlined key="ellipsis" /></a>,
                                 ]}
                             >

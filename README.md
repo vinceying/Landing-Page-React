@@ -16,6 +16,7 @@ A portfolio with [next.js](https://nextjs.org/) and [Antd](https://ant.design/),
 
 - Improve more information page
 - Mobile devices adaptation
+- Display date with API
 - More pages
 
 ### Deploy
