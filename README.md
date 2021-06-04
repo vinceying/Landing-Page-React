@@ -14,9 +14,10 @@ A portfolio with [next.js](https://nextjs.org/) and [Antd](https://ant.design/),
 
 ### TO DO
 
-- Improve more information page
-- Mobile devices adaptation
-- Display date with API
+- [ ] Improve more information page
+- [x] Mobile devices adaptation
+- [ ] Display post date with API
+- [x] Display subscriber date with Substats
 - More pages
 
 ### Deploy

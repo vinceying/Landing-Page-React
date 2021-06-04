@@ -127,13 +127,14 @@
   }
 }
 
-.moretitle {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  text-align: left;
+@media (max-width: 570px) {
+  .PCPage {
+      display: none
+  }
 }
 
-.morecard {
-  flex-basis: 45%;
+@media (min-width: 570px) {
+  .MobilePage {
+      display: none
+  }
 }
-
