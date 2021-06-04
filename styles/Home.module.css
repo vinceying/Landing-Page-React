@@ -127,13 +127,13 @@
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 620px) {
   .PCPage {
       display: none
   }
 }
 
-@media (min-width: 570px) {
+@media (min-width: 620px) {
   .MobilePage {
       display: none
   }
