@@ -18,7 +18,8 @@ A portfolio with [next.js](https://nextjs.org/) and [Antd](https://ant.design/),
 - [x] Mobile devices adaptation
 - [ ] Display post date with API
 - [x] Display subscriber date with Substats
-- More pages
+- [ ] Redesign footer 
+- [ ] More pages
 
 ### Deploy
 
