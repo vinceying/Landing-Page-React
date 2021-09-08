@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { Row, Col, Button, notification, Divider } from 'antd';
+import { Row, Col, Button, notification, MailOutlined, AppstoreOutlined, SettingOutlined } from 'antd';
 import { UsergroupAddOutlined } from '@ant-design/icons'
 
 const openNotification = () => {
@@ -43,7 +43,7 @@ export default function Home() {
         <Button shape="round" value="large" icon={<UsergroupAddOutlined />} onClick={openNotification}>
           Follow me
         </Button>
-        <div className={styles.grid}>
+        <div className={styles.morecard}>
           <a href="https://i.vince.pub" className={styles.card}>
             <h3>✏ Blog &rarr;</h3>
             <p>My thoughts on books, Learn about me in my blog. </p>
