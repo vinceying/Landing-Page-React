@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import { Row, Col, Button, notification, Divider } from 'antd';
 import { UsergroupAddOutlined } from '@ant-design/icons'
@@ -25,7 +24,7 @@ export default function Home() {
       <Row>
         <Col span={24}>&nbsp;</Col>
       </Row>
-      <Image
+      <img
         src="/faviocn_mistyle.png"
         alt="Picture of the author"
         width={150}
@@ -79,4 +78,3 @@ export default function Home() {
 
   )
 }
-

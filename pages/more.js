@@ -18,7 +18,7 @@ export default function more() {
             />
             <div className={styles.container}>
                 <Head>
-                    <title>Vince</title>
+                    <title>More</title>
                     <link rel="icon" href="/faviocn_mistyle.png" />
                 </Head>
                 <main className={styles.main}>
