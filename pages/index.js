@@ -20,6 +20,7 @@ export default function Home() {
       <Head>
         <title>Vince</title>
         <link rel="icon" href="/faviocn_mistyle.png" />
+        <script async defer data-website-id="4484cb12-046e-4ecc-b137-e6ba84bba274" src="https://analyse.vince.pub/umami.js"></script>
       </Head>
       <Row>
         <Col span={24}>&nbsp;</Col>
